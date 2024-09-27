@@ -215,9 +215,11 @@ footer {
 .infoleft {
     grid-row: 1;
     grid-column: 1;
+    text-align: center;
 }
 
 .inforight {
     grid-row: 1;
     grid-column: 2;
+    text-align: center;
 }
