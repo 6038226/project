@@ -135,9 +135,11 @@ main {
     text-align: center;
     margin: 4% 4%;
 }
-.maininfotext{
+
+.maininfotext {
     text-align: center;
 }
+
 .onderzoek {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -297,6 +299,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 .textfooters {
     grid-row: 3;
     grid-column: 1;
@@ -304,6 +307,7 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+
 .developerleft {
     grid-row: 1;
     grid-column: 1;
@@ -345,4 +349,14 @@ footer {
     grid-row: 1;
     grid-column: 2;
     text-align: center;
+}
+
+a:link,
+a:visited {
+    color: blue;
+}
+
+a:active,
+a:hover {
+    color: purple;
 }
